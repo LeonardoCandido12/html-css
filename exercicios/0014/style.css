@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+        body {
+            background-color: aquamarine;font-family: arial, Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        h1{
+            background-color: blue;
+            color:brown
+        }
+        h2{
+            color: rgb(167, 36, 36);
+        }
+    

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{
+    background-color: #B5C4DE;
+    font-family: arial, sans-serif;
+ 
+    background-attachment: fixed;
+    
+}
+h1, h2{
+    color: #345691;
+}
+h1#principal{
+    text-align: center;
+    background-color:#192945;
+    color: white; }
+    p{
+        text-align: justify;
+    }
+    .segundo{
+        color: #786500;
+    }
+.terceiro{
+    color: #786500;
+}
