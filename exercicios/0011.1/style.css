@@ -15,14 +15,11 @@ família de fontes: 'Roboto', sem serifa; */
     --font3: 'open sans' , 'sans-serif';
 }
 
-body{
-    background-color: ;
-
-}
 main{
     margin: auto;
     text-align: justify;
     max-width:700px;
+    height: 100%;
     padding: 10px 30px 10px 30px;
     background-color: #f9eeee;
 }
@@ -38,5 +35,5 @@ h1{
 }
 .post-content{
     font-family: var(--font3);
-    color:
+    
 }
