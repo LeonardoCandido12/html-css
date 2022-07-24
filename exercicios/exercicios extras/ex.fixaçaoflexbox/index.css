@@ -1,35 +1,35 @@
 *{
     margin:0;
     padding:0;
-
+    box-sizing: border-box;
 }
 header{
     background-color: black;
-    width: 100%;
-    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
+    padding: 10px 20px;
 }
-#imgg{
+#logorock{
   width: 50px;
    
 }
-#imgp{
- width: 200px;
+#logoone{
+ width: 250px;
    
 
 }
-nav a {
+.buttonhearder{
     border: solid 2px white;
     text-decoration: none;
-    color:white;
+    color: white;
     padding:5px;
-   
+    border-radius: 5px;
+    font-size: 1.3em;
+    transition: 0.4s;
+    row-gap:10px;
 }
 
 a:hover{
-   border: solid 2px #730330;
-padding:10px;
+   border: #730330;
 }
