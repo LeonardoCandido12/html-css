@@ -19,17 +19,22 @@ header{
    
 
 }
+.buttons{
+    display: flex;
+    gap: 10px;
+}
 .buttonhearder{
-    border: solid 2px white;
-    text-decoration: none;
     color: white;
+    border: solid 2px white;
     padding:5px;
+    background-color: black;
     border-radius: 5px;
     font-size: 1.3em;
     transition: 0.4s;
-    row-gap:10px;
+    cursor: pointer;
 }
 
-a:hover{
-   border: #730330;
+.buttonhearder:hover{
+    border: solid 2px #7e012c;
+    font-size: 1.4em;
 }
