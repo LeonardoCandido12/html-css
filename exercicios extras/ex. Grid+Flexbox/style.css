@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    min-height: 100vh;
+}
+.header{
+    background-color: #000010;
+    width: 100%;
+    height: 100px;
+    padding: 30px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo-onebit{
+    width: 200px;
+}
+.buttons{
+    display: flex;
+    gap: 15px;
+}
+.button{
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+}
+.button:hover{
+    border-bottom: 2px solid white;
+}
+.title{
+    text-align: center;
+    padding-top: 15px 15px 0 15px;
+}
+.paragraph-title{
+    font-size: 20px;
+}
+.main-content{
+    display: flex;
+    padding: 20px 0 20px 0;
+    display: grid;
+    grid-template-columns: 2fr 0.7fr;
+    max-width: 90%;
+    margin: 0 20px 0 auto;
+}
+.box-principal{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.img-principal{
+    width: 270px;
+    border-radius: 10px;
+    text-align: justify;
+}
+.img-principal:hover{
+    border: black 1px solid;
+
+}
+.img-1{
+    width: 268px;
+    height: 180px;
+    border-radius: 10px;
+}
+.box-secundario{
+    min-width: 240px;
+    background-color:#000010;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 0 15px 0;
+}
+
+.img-2{
+    width: 230px;
+    border-radius: 10px; 
+}
+.img-secundaria{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px ;
+    border-radius: 10px;
+}
+.img-secundaria:hover{
+    border: 1px solid white;
+}
+.h1-second{
+    text-align: center;
+}
+.footer{
+    background-color: #000010;
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width:1280px) {
+    .box-principal{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:1000px){
+    .box-principal{
+        display: grid;
+        grid-template-columns: 1fr;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .main-content{
+        margin: auto;
+    }
+}
+@media(max-width:620px){
+    .main-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-2{
+        width: 350px;
+        height: 250px;
+        
+    }
+    .img-secundaria{
+        font-size: 20px;
+    }
+    .box-secundario{
+        display: flex;
+        align-items: center;
+    }
+
+}
+@media (max-width:430px){
+    .img-2{
+        width: 250px;
+        height: 130px;
+    }
+}
+    
