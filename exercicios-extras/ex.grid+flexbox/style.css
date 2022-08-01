@@ -11,12 +11,13 @@
 .header{
     background-color: #000010;
     width: 100%;
-    height: 100px;
+    min-height: 100px;
     padding: 30px ;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    flex-wrap: wrap;
+    gap:15px
 }
 .logo-onebit{
     width: 200px;
@@ -54,6 +55,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 10px;
+    flex-wrap: wrap;
 }
 .img-principal{
     width: 270px;
@@ -100,13 +102,22 @@
 .footer{
     background-color: #000010;
     width: 100%;
-    height: 100px;
+    min-height: 100px;
     padding: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    
 }
-@media (max-width:1280px) {
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}    
+  @media (max-width:1280px) {
     .box-principal{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -141,7 +152,6 @@
         display: flex;
         align-items: center;
     }
-
 }
 @media (max-width:430px){
     .img-2{
